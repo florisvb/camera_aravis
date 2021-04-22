@@ -16,7 +16,7 @@ catkin_package(
     LIBRARIES
 )
 
-include_directories(cfg/cpp ${catkin_INCLUDE_DIRS} ${Aravis_INCLUDE_PATH} ${GLIB2_INCLUDE_DIRS})
+include_directories(cfg/cpp ${catkin_INCLUDE_DIRS} ${Aravis_INCLUDE_DIRS} ${GLIB2_INCLUDE_DIRS})
 
 add_executable(camnode src/camnode.cpp)
 
